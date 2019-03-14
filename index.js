@@ -6,7 +6,7 @@ function findMatching(drivers, str) {
 
 function fuzzyMatch (drivers, str) {
   debugger;
-  let len = str.length();
+  let len = str.length;
   const newDrivers = drivers.filter(driver => driver.substr(0,len) === str);
   return newDrivers;
 }
